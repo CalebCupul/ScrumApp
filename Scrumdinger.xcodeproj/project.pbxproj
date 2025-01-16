@@ -31,6 +31,8 @@
 		304F2C202D37046A008D8AE3 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304F2C1F2D37046A008D8AE3 /* ScrumStore.swift */; };
 		304F2C222D384A74008D8AE3 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304F2C212D384A74008D8AE3 /* ErrorWrapper.swift */; };
 		304F2C252D384B82008D8AE3 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304F2C242D384B82008D8AE3 /* ErrorView.swift */; };
+		304F2C272D386BEE008D8AE3 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304F2C262D386BEE008D8AE3 /* MeetingTimerView.swift */; };
+		304F2C292D3884D7008D8AE3 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304F2C282D3884D7008D8AE3 /* SpeakerArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		304F2C1F2D37046A008D8AE3 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		304F2C212D384A74008D8AE3 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		304F2C242D384B82008D8AE3 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		304F2C262D386BEE008D8AE3 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		304F2C282D3884D7008D8AE3 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,6 @@
 		304F2BDB2D1E0CE6008D8AE3 = {
 			isa = PBXGroup;
 			children = (
-				304F2C242D384B82008D8AE3 /* ErrorView.swift */,
 				304F2BE62D1E0CE6008D8AE3 /* Scrumdinger */,
 				304F2BE52D1E0CE6008D8AE3 /* Products */,
 			);
@@ -136,6 +139,8 @@
 		304F2C232D384B05008D8AE3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				304F2C262D386BEE008D8AE3 /* MeetingTimerView.swift */,
+				304F2C242D384B82008D8AE3 /* ErrorView.swift */,
 				304F2BFA2D1E49FB008D8AE3 /* CardView.swift */,
 				304F2C142D3594E7008D8AE3 /* MeetingFooterView.swift */,
 				304F2C0E2D357BCB008D8AE3 /* MeetingHeaderView.swift */,
@@ -147,6 +152,7 @@
 				304F2C1B2D36EB23008D8AE3 /* NewScrumSheet.swift */,
 				304F2C102D358EEE008D8AE3 /* ScrumProgressViewStyle.swift */,
 				304F2BE92D1E0CE6008D8AE3 /* MeetingView.swift */,
+				304F2C282D3884D7008D8AE3 /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,8 +232,10 @@
 				304F2C0D2D31A4CE008D8AE3 /* ThemePicker.swift in Sources */,
 				304F2C112D358EEF008D8AE3 /* ScrumProgressViewStyle.swift in Sources */,
 				304F2C152D3594E7008D8AE3 /* MeetingFooterView.swift in Sources */,
+				304F2C292D3884D7008D8AE3 /* SpeakerArc.swift in Sources */,
 				304F2C252D384B82008D8AE3 /* ErrorView.swift in Sources */,
 				304F2C132D359028008D8AE3 /* ScrumTimer.swift in Sources */,
+				304F2C272D386BEE008D8AE3 /* MeetingTimerView.swift in Sources */,
 				304F2BF92D1E49CE008D8AE3 /* DailyScrum.swift in Sources */,
 				304F2C202D37046A008D8AE3 /* ScrumStore.swift in Sources */,
 				304F2C052D2F0510008D8AE3 /* DetailView.swift in Sources */,
